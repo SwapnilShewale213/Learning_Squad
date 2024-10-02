@@ -6,6 +6,9 @@ public class Main {
 
         EncapsulationDemo e = new EncapsulationDemo();
 
+        Calcaulator c = new Add(4,3);
+
+
         // here method call
         //System.out.println("Nice to meet you " + e.doSomeOperations());
 
@@ -20,6 +23,11 @@ public class Main {
 //        System.out.println("Roll No : " + e.getRollNo());
 //        System.out.println("Address :" + e.getAddress());
 
+
+        MethodOverLoadingDemo m = new MethodOverLoadingDemo();
+        int a = 3, b = 5;
+        m.add(a,b);
+        m.add(3,5,5);
 
     }
 }
